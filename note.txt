@@ -1,0 +1,8 @@
+deploy on the Github Pages
+
+git checkout gh-pages
+git rm -rf . --exclude='.gitignore'
+Remove-Item -Recurse -Force .\css, .\img, .\js
+cp -r dist/*
+git add .
+git push origin gh-pages --force
