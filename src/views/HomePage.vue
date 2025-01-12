@@ -4,14 +4,14 @@
       Welcome to My Portfolio
     </h1>
     <p class="text-lg text-gray-700 text-center mb-8">
-      Showcasing my work, skills, and experience. Let’s build something great together.
+      Showcasing my projects, skills, and experience.
     </p>
     <div class="flex space-x-4">
       <router-link
         to="/portfolio"
         class="bg-blue-600 text-white text-lg px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition transform hover:scale-105"
       >
-        View My Work
+        View My Projects
       </router-link>
       <router-link
         to="/about"
