@@ -130,139 +130,99 @@
         </ul>
       </div>
 
-      <!-- 趣味 -->
+      <!-- Hobby -->
       <div class="mt-8">
         <h2 class="text-2xl font-bold text-blue-800">Hobbys</h2>
         <p class="mt-4 text-blue-700">
           <strong>Kochen & Backen</strong>
-        </p>
-        <p class="mt-2 text-blue-700 leading-relaxed">
-            Im Winter 24/25 habe ich zum ersten Mal eine selbstgestrickte Mütze gemacht.
-        </p>
-        <!-- photos -->
-        <div class="flex flex-wrap justify-center gap-8 mt-6">
-            <!-- 画像1 -->
-            <div class="text-center">
-            <img
-                src="@/assets/Stricken.jpg"
-                alt="Ein selbstgestrickter Mütze"
-                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
-            />
-            <p class="mt-2 text-blue-700">Meine erste gestrickte Mütze</p>
-            </div>
-
-            <!-- 画像2 -->
-            <div class="text-center">
-            <img
-                src="@/assets/Stricken.jpg"
-                alt="Ein selbstgestrickter Schal"
-                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
-            />
-            <p class="mt-2 text-blue-700">Ein warmer Schal</p>
-            </div>
-
-            <!-- 画像3 -->
-            <div class="text-center">
-            <img
-                src="@/assets/Stricken.jpg"
-                alt="Ein selbstgestrickter Handschuh"
-                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
-            />
-            <p class="mt-2 text-blue-700">Handgestrickte Handschuhe</p>
-            </div>
-        </div>   
-        <p class="mt-4 text-blue-700">
-          <strong>Karaoke</strong>
-        </p>
-        <p class="mt-2 text-blue-700 leading-relaxed">
-            Im Winter 24/25 habe ich zum ersten Mal eine selbstgestrickte Mütze gemacht.
-        </p>
-        <!-- photos -->
-        <div class="flex flex-wrap justify-center gap-8 mt-6">
-            <!-- 画像1 -->
-            <div class="text-center">
-            <img
-                src="@/assets/Stricken.jpg"
-                alt="Ein selbstgestrickter Mütze"
-                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
-            />
-            <p class="mt-2 text-blue-700">Meine erste gestrickte Mütze</p>
-            </div>
-
-            <!-- 画像2 -->
-            <div class="text-center">
-            <img
-                src="@/assets/Stricken.jpg"
-                alt="Ein selbstgestrickter Schal"
-                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
-            />
-            <p class="mt-2 text-blue-700">Ein warmer Schal</p>
-            </div>
-
-            <!-- 画像3 -->
-            <div class="text-center">
-            <img
-                src="@/assets/Stricken.jpg"
-                alt="Ein selbstgestrickter Handschuh"
-                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
-            />
-            <p class="mt-2 text-blue-700">Handgestrickte Handschuhe</p>
-            </div>
-        </div>   
-        <p class="mt-4 text-blue-700">
-          <strong>Bouldern</strong>
-        </p>
-        <p class="mt-2 text-blue-700 leading-relaxed">
-            Im Winter 24/25 habe ich zum ersten Mal eine selbstgestrickte Mütze gemacht.
-        </p>
-        <!-- photos -->
-        <div class="flex flex-wrap justify-center gap-8 mt-6">
-            <!-- 画像1 -->
-            <div class="text-center">
-            <img
-                src="@/assets/Stricken.jpg"
-                alt="Ein selbstgestrickter Mütze"
-                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
-            />
-            <p class="mt-2 text-blue-700">Meine erste gestrickte Mütze</p>
-            </div>
-
-            <!-- 画像2 -->
-            <div class="text-center">
-            <img
-                src="@/assets/Stricken.jpg"
-                alt="Ein selbstgestrickter Schal"
-                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
-            />
-            <p class="mt-2 text-blue-700">Ein warmer Schal</p>
-            </div>
-
-            <!-- 画像3 -->
-            <div class="text-center">
-            <img
-                src="@/assets/Stricken.jpg"
-                alt="Ein selbstgestrickter Handschuh"
-                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
-            />
-            <p class="mt-2 text-blue-700">Handgestrickte Handschuhe</p>
-            </div>
-        </div>   
-        <p class="mt-4 text-blue-700">
-            <strong>Stricken</strong>
-        </p>
-        <p class="mt-2 text-blue-700 leading-relaxed">
-            Im Winter 24/25 habe ich zum ersten Mal eine selbstgestrickte Mütze gemacht.
         </p>
         <!-- photos -->
         <div class="flex flex-wrap justify-center gap-8 mt-6">
             <!-- photo1 -->
             <div class="text-center">
             <img
-                src="@/assets/Stricken.jpg"
+                src="@/assets/food2.jpg"
+                alt="food"
+                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
+            />
+            <p class="mt-2 text-blue-700 w-48">Selbgemachte Gyoza bei einem Gyozaabend</p>
+            </div>
+
+            <!-- photo2 -->
+            <div class="text-center">
+            <img
+                src="@/assets/food3.jpg"
+                alt="food"
+                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
+            />
+            <p class="mt-2 text-blue-700 w-48">Selbstgebackene Macarons</p>
+            </div>
+
+            <!-- photo3 -->
+            <div class="text-center">
+            <img
+                src="@/assets/food4.jpg"
+                alt="food"
+                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
+            />
+            <p class="mt-2 text-blue-700 w-48">Japanischer Curry auf einem Straßenfest in Halle</p>
+            </div>
+        </div>   
+        <p class="mt-4 text-blue-700">
+          <strong>Karaoke</strong>
+        </p>
+        <!-- photos -->
+        <div class="flex flex-wrap justify-center gap-8 mt-6">
+            <!-- photo1 -->
+            <div class="text-center">
+            <img
+                src="@/assets/karaoke1.jpg"
+                alt="Karaoke"
+                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
+            />
+            <p class="mt-2 text-blue-700 w-48">Ein netter Karaokeabend bei einem Freund</p>
+            </div>
+
+            <!-- photo2 -->
+            <div class="text-center">
+            <img
+                src="@/assets/karaoke2.jpg"
+                alt="Karaoke"
+                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
+            />
+            <p class="mt-2 text-blue-700 w-48">Karaoke bei Auftaktparty der Japanologie</p>
+            </div>
+
+        </div>   
+        <p class="mt-4 text-blue-700">
+          <strong>Bouldern</strong>
+        </p>
+        <!-- photos -->
+        <div class="flex flex-wrap justify-center gap-8 mt-6">
+            <!-- photo1 -->
+            <div class="text-center">
+            <img
+                src="@/assets/bouldern1.jpg"
                 alt="Ein selbstgestrickter Mütze"
                 class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
             />
-            <p class="mt-2 text-blue-700">Meine erste gestrickte Mütze</p>
+            <p class="mt-2 text-blue-700 w-48">Bouldern diesen Winter</p>
+            </div>
+        </div>   
+        <p class="mt-4 text-blue-700">
+            <strong>Stricken</strong>
+        </p>
+
+        <!-- photos -->
+        <div class="flex flex-wrap justify-center gap-8 mt-6">
+            <!-- photo1 -->
+            <div class="text-center">
+            <img
+                src="@/assets/Stricken.jpg"
+                alt="stricken"
+                class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
+            />
+            <p class="mt-2 text-blue-700 w-48">Ein selbstgestrickter Mütze diesen Winter</p>
             </div>
         </div>    
       </div>
