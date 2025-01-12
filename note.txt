@@ -1,0 +1,7 @@
+deploy on the Github Pages
+
+git checkout gh-pages
+git rm -rf . --exclude='.gitignore'
+cp -r dist/*
+git add .
+git push origin gh-pages --force
