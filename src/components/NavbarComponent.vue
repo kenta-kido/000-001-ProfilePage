@@ -33,7 +33,7 @@
             class="text-white hover:bg-blue-700 px-3 py-2 rounded-md transition"
             active-class="font-bold bg-blue-700"
           >
-            Portfolio
+            Projekt
           </router-link>
         </div>
         <!-- Mobile menu button -->
@@ -83,7 +83,7 @@
           class="block px-4 py-2 hover:bg-blue-700 transition"
           @click="toggleMenu"
         >
-          Portfolio
+          Projekt
         </router-link>
       </div>
     </transition>
