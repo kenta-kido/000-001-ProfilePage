@@ -22,11 +22,16 @@
         <p class="mt-4 text-blue-700">
           <strong>Link:</strong> <a href="https://kenta-kido.github.io/000-001-ProfilePage/#/" target="_blank" class="text-blue-600 underline">Zur Website</a>
         </p>
+        <!--
+        <p class="mt-4 text-blue-700">
+          <strong>Github:</strong> <a href="https://github.com/kenta-kido/000-001-ProfilePage" target="_blank" class="text-blue-600 underline">Zur Github</a>
+        </p>
+        -->
       </div>
 
       <!-- 2つ目の要素 -->
       <div class="mt-8">
-        <h2 class="text-2xl font-bold text-blue-800">Selbst entwickelte App</h2>
+        <h2 class="text-2xl font-bold text-blue-800">Selbst entwickelte WebApp</h2>
         <p class="mt-2 text-blue-700">
           <strong>Übersicht:</strong> TBA.
         </p>
@@ -41,8 +46,16 @@
           <strong>Deploy-Ziel:</strong> Heroku
         </p>
         <p class="mt-4 text-blue-700">
-          <strong>Link:</strong>
+          <strong>Link:</strong> <a href="https://portfolio-kenta-926ed757a371.herokuapp.com/" target="_blank" class="text-blue-600 underline">Zur WebApp</a>
         </p>
+        <!--
+        <p class="mt-4 text-blue-700">
+          <strong>Github (Backend):</strong> <a href="https://github.com/kenta-kido/001-001-Recipe-Backend" target="_blank" class="text-blue-600 underline">Zur Github(Backend)</a>
+        </p>
+        <p class="mt-4 text-blue-700">
+          <strong>Github (Frontend):</strong> <a href="https://github.com/kenta-kido/001-002-Recipe-Frontend" target="_blank" class="text-blue-600 underline">Zur Github(Frontend)</a>
+        </p>
+        -->
       </div>
 
       <!-- 3つ目の要素 -->

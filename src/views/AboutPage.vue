@@ -180,7 +180,7 @@
                 alt="Karaoke"
                 class="rounded-full w-48 h-48 border-4 border-blue-600 shadow-lg object-cover"
             />
-            <p class="mt-2 text-blue-700 w-48">Ein netter Karaokeabend bei einem Freund</p>
+            <p class="mt-2 text-blue-700 w-48">Ein Karaokeabend bei einem Freund</p>
             </div>
 
             <!-- photo2 -->
