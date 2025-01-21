@@ -1,5 +1,6 @@
 deploy on the Github Pages
 
+npm run build
 git checkout gh-pages
 git rm -rf . --exclude='.gitignore'
 cp -r dist/*
