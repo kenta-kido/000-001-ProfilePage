@@ -22,6 +22,9 @@
         <p class="mt-4 text-blue-700">
           <strong>Link:</strong> <a href="https://kenta-kido.github.io/000-001-ProfilePage/#/" target="_blank" class="text-blue-600 underline">Zur Website</a>
         </p>
+        <p class="mt-4 text-blue-700">
+          <strong>GitHub:</strong> <a href="https://github.com/kenta-kido/000-001-ProfilePage" target="_blank" class="text-blue-600 underline">Zur Github(Backend)</a>
+        </p>
       </div>
 
       <!-- Selbst entwickelte App: Japanisches Rezeptportal "mogumogu"-->
@@ -46,6 +49,12 @@
         </ul>
         <p class="mt-4 text-blue-700">
           <strong>Deploy-Ziel:</strong> Heroku
+        </p>
+        <p class="mt-4 text-blue-700">
+          <strong>Github (Backend):</strong> <a href="https://github.com/kenta-kido/001-001-Recipe-Backend" target="_blank" class="text-blue-600 underline">Zur Github(Backend)</a>
+        </p>
+        <p class="mt-4 text-blue-700">
+          <strong>Github (Frontend):</strong> <a href="https://github.com/kenta-kido/001-002-Recipe-Frontend" target="_blank" class="text-blue-600 underline">Zur Github(Frontend)</a>
         </p>
         <p class="mt-4 text-blue-700">
           <strong>Link:</strong> <a href="https://portfolio-kenta-926ed757a371.herokuapp.com/" target="_blank" class="text-blue-600 underline">Zur Website</a>
