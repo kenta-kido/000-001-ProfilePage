@@ -15,11 +15,11 @@ Remove-Item -Recurse -Force .\css, .\img, .\js
 # 4. dist ディレクトリの内容をコピー
 cp -r dist/* .
 
-# 5. "deploy on GitHub Pages" というメッセージでコミット
-git commit -m "deploy on GitHub Pages"
-
-# 6. 変更をステージング
+# 5. 変更をステージング
 git add .
+
+# 6. "deploy on GitHub Pages" というメッセージでコミット
+git commit -m "deploy on GitHub Pages"
 
 # 7. gh-pages ブランチに強制プッシュ
 git push origin gh-pages --force
