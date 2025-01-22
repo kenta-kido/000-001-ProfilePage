@@ -106,7 +106,8 @@
         </ul>
       </div>
 
-      <div class="mt-8">
+      <router-link :to="{ path: '/about', hash: '#djh' }"></router-link>
+      <div class="mt-8"  id="djh">
         <h2 class="text-2xl font-bold text-blue-800">Freiwilliges Engagement</h2>
         <ul class="mt-4 text-blue-700 space-y-4">
           <li>
