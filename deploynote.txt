@@ -1,5 +1,8 @@
 deploy on the Github Pages
 
+#0
+npm run build 
+
 # 1. gh-pages ブランチに切り替える
 git checkout gh-pages
 
