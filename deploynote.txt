@@ -1,0 +1,22 @@
+deploy on the Github Pages
+
+# 1. gh-pages ブランチに切り替える
+git checkout gh-pages
+
+# 2. (初回以外不要)すべてのファイルを削除（.gitignore は除外）
+git rm -rf . --exclude='.gitignore'
+
+# 3. 不要なディレクトリ（css, img, js など）を削除（PowerShell 用）
+Remove-Item -Recurse -Force .\css, .\img, .\js
+
+# 4. dist ディレクトリの内容をコピー
+cp -r dist/* .
+
+# 5. "deploy on GitHub Pages" というメッセージでコミット
+git commit -m "deploy on GitHub Pages"
+
+# 6. 変更をステージング
+git add .
+
+# 7. gh-pages ブランチに強制プッシュ
+git push origin gh-pages --force
