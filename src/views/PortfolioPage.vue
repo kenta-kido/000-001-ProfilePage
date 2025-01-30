@@ -36,11 +36,11 @@
         <p class="mt-4 text-blue-700"><strong>Hauptfunktionen:</strong></p>
         <ul class="list-disc pl-6 text-blue-700">
           <li>Benutzerverwaltung: Registrierung, Anmeldung und Rechteverwaltung mithilfe von Spring Security.</li>
-          <li>Rezeptverwaltung: Erstellen, Bearbeiten und Veröffentlichen von Rezepten durch Mitglieder.</li>
+          <li>Rezeptverwaltung: Erstellen, Bearbeiten und Veröffentlichen von Rezepten durch Mitglieder (Hinweis: Bereits erstellte Menüs zu bearbeiten ist noch in Arbeit).</li>
           <li>Suchsystem: Implementierung eines robusten Suchsystems mithilfe von Natural Language Processing (NLP) Techniken wie Trigrammen und Levenshtein-Distanz, um ungenaue oder alternative Namen effektiv zu erkennen.</li>
           <li>Tagging-System: Finden von Rezepten basierend auf persönlichen Interessen oder Tags.</li>
           <li>Barcode-Scanning: Suche nach Rezepten basierend auf eingescannten Produkt-Barcodes, unter Verwendung der <a href="https://world.openfoodfacts.org/" target="_blank" class="text-blue-600 underline">openfoodfacts-API</a>.</li>
-          <li>Unit-Tests: Sicherstellung der Softwarequalität durch umfangreiche Tests.</li>
+          <li>Unit-Tests: Sicherstellung der Softwarequalität durch Tests (Derzeit nur einfache CRUD-Tests für eine Controller-Klasse implementiert, weitere Tests sind geplant).</li>
         </ul>
         <p class="mt-4 text-blue-700"><strong>Verwendete Tech Stacks:</strong></p>
         <ul class="list-disc pl-6 text-blue-700">
@@ -59,6 +59,29 @@
         <p class="mt-4 text-blue-700">
           <strong>Link:</strong> <a href="https://portfolio-kenta-926ed757a371.herokuapp.com/" target="_blank" class="text-blue-600 underline">Zur Website</a>
         </p>
+        <!-- Sample User Credentials -->
+        <p class="mt-4 text-blue-700"><strong>Testbenutzer:</strong></p>
+        <table class="border-collapse border border-blue-500 mt-2 text-blue-700">
+          <thead>
+            <tr class="bg-blue-200">
+              <th class="border border-blue-500 px-4 py-2">Rolle</th>
+              <th class="border border-blue-500 px-4 py-2">E-Mail</th>
+              <th class="border border-blue-500 px-4 py-2">Passwort</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-blue-500 px-4 py-2">Admin</td>
+              <td class="border border-blue-500 px-4 py-2">admintest@kenta.com</td>
+              <td class="border border-blue-500 px-4 py-2">test</td>
+            </tr>
+            <tr>
+              <td class="border border-blue-500 px-4 py-2">User</td>
+              <td class="border border-blue-500 px-4 py-2">usertest@kenta.com</td>
+              <td class="border border-blue-500 px-4 py-2">test</td>
+            </tr>
+          </tbody>
+        </table>
         <p class="mt-4 text-blue-700">
           <strong>Hinweis:</strong>
         </p>
