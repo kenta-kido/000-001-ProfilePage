@@ -3,7 +3,7 @@
     <div class="text-left max-w-4xl px-6">
       <h1 class="text-4xl font-extrabold text-blue-800 mb-6">Portfolio</h1>
 
-      <!-- 1つ目の要素 -->
+      <!-- static website for introducing portfolios  -->
       <div class="mt-8">
         <h2 class="text-2xl font-bold text-blue-800">Diese Website</h2>
         <p class="mt-2 text-blue-700">
@@ -27,7 +27,7 @@
         </p>
       </div>
 
-      <!-- Selbst entwickelte App: Japanisches Rezeptportal "mogumogu"-->
+      <!-- self-made app -->
       <div class="mt-8">
         <h2 class="text-2xl font-bold text-blue-800">Selbst entwickelte App: Japanisches Rezeptportal "mogumogu"</h2>
         <p class="mt-2 text-blue-700">
@@ -76,7 +76,7 @@
             </ul>
           </li>
         </ul>
-        <!-- Mogumogu Bedeutung -->
+        <!-- Meaning of Mogumogu -->
         <p class="mt-4 text-blue-700">
           <strong>Was bedeutet "mogumogu"?</strong>
         </p>
@@ -88,7 +88,7 @@
         </p>
       </div>
 
-      <!-- 3つ目の要素 -->
+      <!-- project at the university -->
       <div class="mt-8">
         <h2 class="text-2xl font-bold text-blue-800">Softwareengineering Praktikum 24/25 WS</h2>
         <p class="mt-2 text-blue-700">

@@ -3,7 +3,7 @@
     <div class="text-left max-w-4xl px-6">
       <h1 class="text-4xl font-extrabold text-blue-800 mb-6">Barcode-Liste</h1>
 
-      <!-- 説明文 -->
+      <!-- Descriptions -->
       <p class="mt-2 text-blue-700">
         Diese Seite ist Teil der selbst entwickelten App: <a href="https://portfolio-kenta-926ed757a371.herokuapp.com" target="_blank" class="text-blue-600 underline">Japanisches Rezeptportal "mogumogu"</a> und dient zur Demonstration der Barcode-Funktionalität. 
         Wählen Sie ein Produkt aus der Liste, um den zugehörigen Barcode anzuzeigen.
@@ -21,7 +21,7 @@
         Für Testzwecke haben wir Barcodes von gängigen Supermärkten und asiatischen Lebensmittelgeschäften aufgenommen. Wenn Sie japanische Lebensmittel zu Hause haben, können Sie diese ebenfalls für Tests verwenden.
       </p>
 
-      <!-- プルダウンメニュー -->
+      <!-- pull down menus -->
       <div class="mt-6">
         <label for="product-select" class="text-blue-800 font-bold">Produkt auswählen:</label>
         <select
@@ -36,7 +36,7 @@
         </select>
       </div>
 
-      <!-- バーコード表示 -->
+      <!-- showing barcodes -->
       <div v-if="selectedProduct" class="mt-8 text-center">
         <p class="text-blue-700">
           <strong>Produkt:</strong> {{ selectedProduct.name }}
@@ -56,7 +56,7 @@ export default {
   name: "BarcodePage",
   data() {
     return {
-      selectedProduct: "", // 選択された商品
+      selectedProduct: "", // selected items
       products: [
         {
           name: "Sojasauce(Alnatura)",
@@ -100,6 +100,3 @@ export default {
 };
 </script>
 
-<style scoped>
-/* 必要に応じて追加のスタイルを記載 */
-</style>

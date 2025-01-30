@@ -1,7 +1,7 @@
 <template>
   <div class="bg-blue-100 min-h-screen flex items-center justify-center py-14">
     <div class="text-left max-w-4xl px-6">
-      <!-- 顔写真 -->
+      <!-- Profile Picture -->
       <div class="flex justify-center mb-8">
         <img
           src="@/assets/myphoto.jpg"
@@ -43,7 +43,7 @@
         </ul>
       </div>
 
-      <!-- スキル -->
+      <!-- Skills Section -->
       <div class="mt-8">
         <h2 class="text-2xl font-bold text-blue-800">Kenntnisse</h2>
 
@@ -80,7 +80,7 @@
         </ul>
       </div>
 
-      <!-- 職歴 -->
+      <!-- Work Experience Section -->
       <div class="mt-8">
         <h2 class="text-2xl font-bold text-blue-800">Berufserfahrung</h2>
         <ul class="mt-4 space-y-4 text-blue-700">

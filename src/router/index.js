@@ -15,7 +15,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(), // hash モードを使用
+  history: createWebHashHistory(), // hash mode
   routes,
   scrollBehavior(to) {
     if (to.hash) {
