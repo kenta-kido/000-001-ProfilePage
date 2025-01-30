@@ -1,25 +1,23 @@
-deploy on the Github Pages
-
-#0
+# 0. Build the project
 npm run build 
 
-# 1. gh-pages ブランチに切り替える
+# 1. Switch to the gh-pages branch
 git checkout gh-pages
 
-# 2. (初回以外不要)すべてのファイルを削除（.gitignore は除外）
+# 2. (Not necessary for subsequent deployments) Remove all files (except .gitignore)
 git rm -rf . --exclude='.gitignore'
 
-# 3. 不要なディレクトリ（css, img, js など）を削除（PowerShell 用）
+# 3. Remove unnecessary directories (e.g., css, img, js) using PowerShell
 Remove-Item -Recurse -Force .\css, .\img, .\js
 
-# 4. dist ディレクトリの内容をコピー
+# 4. Copy the contents of the dist directory
 cp -r dist/* .
 
-# 5. 変更をステージング
+# 5. Stage the changes for commit
 git add .
 
-# 6. "deploy on GitHub Pages" というメッセージでコミット
+# 6. Commit with the message "deploy on GitHub Pages"
 git commit -m "deploy on GitHub Pages"
 
-# 7. gh-pages ブランチに強制プッシュ
+# 7. Force push the changes to the gh-pages branch
 git push origin gh-pages --force

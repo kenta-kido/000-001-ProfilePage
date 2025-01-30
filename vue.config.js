@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   publicPath: '/000-001-ProfilePage/',
   devServer: {
-    port: 8000, // ここでポート番号を設定
+    port: 8000, // port number
   },
 })
